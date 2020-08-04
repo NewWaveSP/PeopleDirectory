@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-people-directory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customPeopleDirectory/CustomPeopleDirectoryWebPart.js",
+          "manifest": "./src/webparts/customPeopleDirectory/CustomPeopleDirectoryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomPeopleDirectoryWebPartStrings": "lib/webparts/customPeopleDirectory/loc/{locale}.js"
+  }
+}
